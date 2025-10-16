@@ -9,7 +9,6 @@
     "build": "webpack --config webpack.prod.js",
     "predeploy": "git checkout gh-pages && git merge main --no-edit && npm run build",
     "deploy": "git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git checkout main"
-
   },
   "repository": {
     "type": "git",
