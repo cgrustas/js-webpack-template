@@ -1,0 +1,40 @@
+***Project Setup Guide***
+
+This file outlines the initial steps to configure your new project. Follow these steps in a new 
+feature branch, committing each major change as an atomic commit.
+
+***
+
+Commit:
+git commit -m "feat(config): Add notes.txt to .gitignore"
+
+Action:
+- Run this command: 'git rm --cached notes.txt' to stop Git from tracking it.
+- Write "notes.txt" in .gitignore.
+
+Commit:
+git commit -m "feat(config): Update project metadata"
+
+Action:
+- Update the project metadata in package.json to match your new project:
+  - Change the "name" and "description".
+  - Update the repository URLs, bug URLs, and homepage URL.
+  - Set project title in src/html/template.html, webpack.common.js
+
+***
+
+Commit:
+git commit "feat(config): Verify/install all listed dependencies"
+
+Action:
+- Inspect package.json, webpack.common.js, webpack.dev.js, and 
+  webpack.prod.js. 
+- Add/Remove rules/dependencies based on your current project's needs
+- Run npm install
+
+***
+
+NOT A COMMIT: Verify dev server and configuration
+
+Action:
+- Run 'npm run start' and confirm everything is working:
