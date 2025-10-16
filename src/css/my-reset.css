@@ -1,0 +1,43 @@
+/* I'm using the modern-normalize library specifically to do the following:
+ * Set system-ui as the default font
+ * Remove default margin on the <body> element
+ * Globally apply box-sizing: border-box
+ * Ensure that form elements inherit the document’s font and text size
+ *
+ * Below are some additional basic resets to use in my projects
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    line-height: 1.5;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding-inline: 0;
+}
+
+img,
+svg {
+    display: block;
+    max-inline-size: 100%;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+}
