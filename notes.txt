@@ -13,7 +13,7 @@ Action:
 - Write "notes.txt" in .gitignore.
 
 Commit:
-git commit -m "Delete project README content"
+git commit -m "Delete template README content"
 
 
 Commit:
