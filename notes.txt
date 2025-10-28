@@ -41,4 +41,4 @@ Action:
 NOT A COMMIT: Verify dev server and configuration
 
 Action:
-- Run 'npm run start' and confirm everything is working:
+- Run 'npm start' and confirm everything is working:
